@@ -9,6 +9,7 @@ body {
   align-items: flex-start;
   padding: 2em;
   flex-direction: column;
+  color: #ccc;
 }
 h1 {
   width: 100%;
