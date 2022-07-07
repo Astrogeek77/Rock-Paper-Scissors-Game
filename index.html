@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1 class="heading">Rock-Paper-Scissors!
+      <span>Select a option below to play with Computer.</span>
+      <span>Developed by <a href="https://github.com/Astrogeek77">Gautam Jain</a>.</span>
+    </h1>
+    <div class="container">
+      <div class="selections">
+        <button class="selection" data-selection="rock" title="Rock">✊</button>
+        <button class="selection" data-selection="paper" title="Paper">✋</button>
+        <button class="selection" data-selection="scissors" title="Scissors">✌</button>
+      </div>
+      <div class="results">
+        <div>
+          You -
+          <span class="result-score" data-your-score>0</span>
+        </div>
+        <div data-final-column>
+          Computer -
+          <span class="result-score" data-computer-score>0</span>
+        </div>
+        <!-- <div class="result-selection winner">✊</div>
+    <div class="result-selection">✌</div> -->
+      </div>
+    </div>
+  </body>
+</html>

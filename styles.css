@@ -1,0 +1,75 @@
+body {
+  background-color: #000a3d;
+  background-image: url('https://www.transparenttextures.com/patterns/dark-wood.png');
+  min-height: 87vh;
+  height: auto;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 2em;
+  flex-direction: column;
+}
+h1 {
+  width: 100%;
+}
+
+h1 span {
+  font-size: 0.5em;
+  display: block;
+  padding-top: 0.5em;
+}
+
+h1 span a {
+  text-decoration: none;
+  color: yellow;
+}
+
+.container {
+  margin: 0.5em;
+  border: 3px dashed #ccc;
+  padding-bottom: 1em;
+  width: 100%;
+}
+
+.selections {
+  display: flex;
+  justify-content: center;
+}
+
+.selection {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 3rem;
+  transition: 100ms;
+}
+
+.selection:hover {
+  transform: scale(1.2);
+}
+
+.results {
+  margin-top: 1rem;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.result-score {
+  margin-left: 0.1rem;
+  font-size: 1rem;
+  /* color: #333; */
+}
+
+.result-selection {
+  opacity: 0.5;
+}
+
+.result-selection.winner {
+  opacity: 1;
+  font-size: 1.5rem;
+}
